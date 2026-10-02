@@ -92,12 +92,59 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
+| FLOW-01 | Phase 1 | Pending |
+| FLOW-02 | Phase 1 | Pending |
+| FLOW-03 | Phase 1 | Pending |
+| FLOW-04 | Phase 1 | Pending |
+| FLOW-05 | Phase 1 | Pending |
+| FLOW-06 | Phase 1 | Pending |
+| FLOW-07 | Phase 1 | Pending |
+| FLOW-08 | Phase 1 | Pending |
+| FLOW-09 | Phase 1 | Pending |
+| FLOW-10 | Phase 1 | Pending |
+| FLOW-11 | Phase 1 | Pending |
+| FLOW-12 | Phase 1 | Pending |
+| FLOW-13 | Phase 1 | Pending |
+| FLOW-14 | Phase 1 | Pending |
+| TECH-01 | Phase 1 | Pending |
+| TECH-02 | Phase 1 | Pending |
+| TECH-03 | Phase 1 | Pending |
+| TECH-04 | Phase 1 | Pending |
+| TECH-05 | Phase 1 | Pending |
+| ACAD-01 | Phase 2 | Pending |
+| ACAD-02 | Phase 2 | Pending |
+| ACAD-03 | Phase 2 | Pending |
+| ACAD-04 | Phase 2 | Pending |
+| ACAD-05 | Phase 2 | Pending |
+| ACAD-06 | Phase 2 | Pending |
+| ACAD-07 | Phase 2 | Pending |
+| ACAD-08 | Phase 2 | Pending |
+| ACAD-09 | Phase 2 | Pending |
+| ACAD-10 | Phase 2 | Pending |
+| ACAD-11 | Phase 2 | Pending |
+| ACAD-12 | Phase 2 | Pending |
+| ACAD-13 | Phase 2 | Pending |
+| ACAD-14 | Phase 2 | Pending |
+| ACAD-15 | Phase 2 | Pending |
+| ACAD-16 | Phase 2 | Pending |
+| DSGN-01 | Phase 3 | Pending |
+| DSGN-02 | Phase 3 | Pending |
+| DSGN-03 | Phase 3 | Pending |
+| DSGN-04 | Phase 3 | Pending |
+| DSGN-05 | Phase 3 | Pending |
+| DSGN-06 | Phase 3 | Pending |
+| DSGN-07 | Phase 3 | Pending |
+| DSGN-08 | Phase 3 | Pending |
+| PUB-01 | Phase 4 | Pending |
+| PUB-02 | Phase 4 | Pending |
+| PUB-03 | Phase 4 | Pending |
+| PUB-04 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 47 total
-- Mapped to phases: 0
-- Unmapped: 47 ⚠️
+- Mapped to phases: 47
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-10-02*
-*Last updated: 2026-10-02 after initial definition*
+*Last updated: 2026-10-02 after roadmap creation*
