@@ -12,7 +12,12 @@ A reader can go through all seven scenes, and whichever answer they pick, they g
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Seven-scene flow with 14 response analyses, canon panels, quotations, progress, back/review, restart — v1, built and tested 2026-10-02
+- ✓ Static deliverable (index.html, styles.css, script.js, assets/, README.md) live on GitHub Pages under a repository subpath — v1
+- ✓ All quotations verified against the supplied novel PDF; research verified against nine linked sources — v1
+- ✓ Final reflection, sources, credits — v1
+
+Still open after v1 (see UNRESOLVED.md): team/teacher confirmation of the internalized-oppression candidates; adult interview; a real Google Sites embed; screen-reader pass.
 
 ### Active
 
@@ -120,7 +125,7 @@ A reader can go through all seven scenes, and whichever answer they pick, they g
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Seven-scene appendix supersedes the five-question outline | Updated planner says so; adds Protected by profit and The comeback | — Pending |
+| Seven-scene appendix supersedes the five-question outline | Updated planner says so; adds Protected by profit and The comeback | ✓ Good |
 | Both answers converge on June's canonical action | Readers compare themselves with June; nobody is pushed to the unethical choice | — Pending |
 | Restrained GSAP subset, not the full pasted animation spec | Brief asks for restrained transitions; hold-to-progress hurts accessibility | — Pending |
 | GitHub Pages hosting, embedded in Google Sites | Google Sites cannot host custom HTML/JS files directly at this fidelity | — Pending |
@@ -129,6 +134,11 @@ A reader can go through all seven scenes, and whichever answer they pick, they g
 | Source PDFs and raw illustrations live in git-ignored `reference/` | Novel is copyrighted; repo is public | — Pending |
 | Skip 4-agent domain research; research sources inside the content phase | Static site with a fixed spec and a 2-day deadline | — Pending |
 | Internalized oppression: verify from the novel or flag the gap | June's self-victimization does not satisfy the category | — Pending |
+| Archivo (OFL, self-hosted) instead of Nimbus Sans | No web-embedding license could be confirmed for Nimbus Sans Extended D | ✓ Good |
+| GSAP and SplitText self-hosted in assets/vendor instead of a CDN | Fewer external dependencies; works offline and inside embeds | ✓ Good |
+| Phases executed inline in one session, not through separate plan/execute cycles | 2-day deadline and a single-file content model; test log and unresolved list record the verification | ⚠️ Revisit if the project grows |
+| Internalized oppression shown as "evidence still to be confirmed" with three verified candidate passages | Passages exist but are secondhand; not ours to declare settled | — Pending team decision |
+| Planner's 39% Pew figure replaced with the correct 82% figure; unverified Japanese-labor claim dropped | The 39% measured something else; the labor claim could not be sourced | ✓ Good |
 
 ## Evolution
 
@@ -148,4 +158,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-10-02 after initialization*
+*Last updated: 2026-10-02 after v1 build and publish*
