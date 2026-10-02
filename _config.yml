@@ -1,0 +1,7 @@
+# GitHub Pages: publish only the website files, not the project notes.
+exclude:
+  - README.md
+  - DESIGN.md
+  - UNRESOLVED.md
+  - TESTING.md
+  - CLAUDE.md

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yellowface: Compare Your Choices With June's</title>
+  <meta name="description" content="An interactive literary analysis of Yellowface by R. F. Kuang. Answer seven questions, then compare your choices with June Hayward's.">
+  <meta name="theme-color" content="#18181B">
+  <link rel="preload" href="assets/fonts/archivo-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+
+  <header class="topbar">
+    <button type="button" class="brand" id="brand" aria-label="Yellowface project: go to the introduction">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__name">Yellowface</span>
+      <span class="brand__sub">Your choices vs. June's</span>
+    </button>
+    <div class="progress" id="progress">
+      <p class="progress__text" id="progress-text">Introduction</p>
+      <ol class="progress__bar" id="progress-bar" aria-hidden="true">
+        <li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+      </ol>
+    </div>
+    <div class="topbar__actions">
+      <a class="btn btn--ghost btn--small fullpage" id="fullpage" href="./" target="_blank" rel="noopener" hidden><span class="fullpage__long">Open&nbsp;</span>full page</a>
+      <button type="button" class="btn btn--ghost btn--small" id="restart">Restart</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript>
+      <div class="noscript">
+        <h1>Yellowface: Compare Your Choices With June's</h1>
+        <p>This interactive project needs JavaScript. Please turn it on in your browser and reload the page.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <p class="sr-only" id="announce" aria-live="polite"></p>
+
+  <footer class="footer">
+    <p>Unit 2 Lit Circle Project on <cite>Yellowface</cite> by R. F. Kuang. Audrina Badillo, Jeremy Lu, Aishwarya Srivastava, Gavin Ecleonel.</p>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/SplitText.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
