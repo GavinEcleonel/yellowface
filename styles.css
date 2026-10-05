@@ -657,6 +657,7 @@ h4 {
   margin-bottom: 12px;
 }
 .rcard h4 { margin-bottom: 10px; }
+.rsec__body .rcard h3 { margin: 0 0 10px; font-size: 1.15rem; }
 .rcard__link { border-left: 6px solid var(--char); padding-left: 12px; }
 .rcard__src { font-size: 0.88rem; color: var(--muted); margin: 0; }
 

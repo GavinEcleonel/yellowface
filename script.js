@@ -17,136 +17,124 @@
       slug: 'manuscript',
       title: 'The manuscript',
       alt: 'Illustration: a woman in a dark sweater reaches for a thick stack of typed pages on a lamp-lit desk beside a typewriter, holding an open tote bag in her other hand.',
-      setup: 'June Hayward is a white novelist whose first book went nowhere. Athena Liu, her Chinese American friend and rival since college, is a literary star. One night Athena dies suddenly in her own apartment while June is there. On the desk is the first draft of Athena’s new novel, The Last Front, about the Chinese Labour Corps in World War I. Nobody else knows it exists.',
+      setup: 'You are June Hayward. Athena Liu, your Chinese American best friend and rival since college, is extremely successful in the writing industry while you’re not, and you’ve always resented her for it. Athena suddenly dies in her own apartment, and you witness the whole thing. You find an unpublished novel on the desk that she never showed to anyone.',
       question: 'Your rival Athena has just died. Her unfinished manuscript is on the desk. Do you take it?',
       a: {
         label: 'Take the manuscript',
-        analysis: 'Choosing to take it puts ambition ahead of consent and authorship. June can tell herself that editing or finishing the manuscript earns her ownership, but that argument begins after she has already taken someone else’s work. Her admission of theft undercuts her attempt to make the act sound harmless. The scene introduces appropriation as a question of who receives credit, authority, and profit from another person’s labor.'
+        analysis: 'Choosing to take the novel shows ambition, and no fear of the consequences of plagiarism. June justifies taking the book by saying it is unfinished and her edits will give her ownership of it.'
       },
       b: {
         label: 'Leave the manuscript',
-        analysis: 'Refusing establishes a boundary between wanting success and claiming another writer’s work. Your choice does not change June’s action in the novel: she takes the manuscript anyway. That difference exposes her narration as a defense of a decision, rather than proof that the decision was unavoidable. Ask how the disappearance of Athena’s ability to object makes June’s rationalization easier, and whose voice is lost when June becomes the credited author.'
+        analysis: 'Not taking the manuscript shows integrity and honesty as an author. However, your choice does not change June’s action in the novel.'
       },
-      june: 'a',
-      juneShort: 'Takes the manuscript',
       canon: 'June takes Athena’s manuscript home that night. She rewrites it and presents the finished book as her own work.',
       quote: { text: 'And so what if it was stolen? So what if I lifted it wholesale?', who: 'June', page: 32 },
       support: [],
-      concepts: ['Appropriation', 'Authorship', 'Unreliable narration'],
-      connection: 'This opening establishes the ethical problem. The later scenes show the racial and institutional structures around it.'
+      concepts: ['Unreliable narration'],
+      connection: 'This is where the ethical problem starts. The later scenes show the racism and the company decisions around it.'
     },
     {
       slug: 'juniper-song',
       title: 'Becoming Juniper Song',
       alt: 'Illustration: a woman sits at a glass table looking at a contact sheet of author portraits while a hand slides one portrait toward her.',
-      setup: 'The publisher, Eden Press, loves the book. Then the marketing team brings up “positioning”: a white author has written a novel set largely in China. They propose presenting June as “worldly” and publishing her under a new name, Juniper Song. Song is her real middle name. Nobody says out loud that readers might take it for a Chinese surname.',
+      setup: 'June’s publisher wants to publish the story.',
       question: 'Your publisher suggests publishing as Juniper Song and using publicity that leaves your racial identity ambiguous. Do you agree?',
       a: {
         label: 'Accept the branding',
-        analysis: 'Accepting the package lets the publisher turn racial ambiguity into a commercial advantage. A pen name alone does not establish wrongdoing; the important issue is its use alongside a stolen manuscript and publicity that may encourage readers to make misleading assumptions. The scene links ideological expectations about who represents a culture with institutional decisions about how to sell that culture. June benefits while Athena’s authorship is concealed.'
+        analysis: 'Accepting the branding lets the publisher make money from readers guessing wrong about June’s race. A pen name on its own is not wrong. The problem is using it on a stolen manuscript, with publicity that leads readers to assume the author is Chinese. June benefits, and Athena’s authorship stays hidden.'
       },
       b: {
         label: 'Insist on transparent publicity',
-        analysis: 'Choosing transparency challenges the idea that an attractive marketing story matters more than an honest account of authorship. However, openly identifying June as white would not repair the theft. This response separates two issues that June’s defenses can blur: writers may write across cultural boundaries, but they cannot claim another writer’s manuscript as their own. In the novel, June accepts the Juniper Song identity, so the next scene follows that actual outcome.'
+        analysis: 'Choosing transparency puts an honest account of who wrote the book ahead of a good marketing story. Still, telling readers June is white would not undo the theft. Writers can write about other cultures. They cannot put their name on another writer’s manuscript. In the novel June accepts the Juniper Song identity, so the next scene follows what she does.'
       },
-      june: 'a',
-      juneShort: 'Becomes Juniper Song',
-      canon: 'June publishes as Juniper Song. The publisher proposes the name; the photographs are her own idea. She later pays for new author photos and is pleased that in them she looks, in her words, “sort of racially ambiguous” (novel PDF p. 56).',
+      canon: 'June publishes as Juniper Song. The publisher proposes the name, and the photographs are her own idea. She later pays for new author photos and is pleased that in them she looks, in her words, “sort of racially ambiguous” (novel PDF p. 56).',
       quote: { text: 'And they suggest I publish under the name Juniper Song instead of June Hayward', who: 'June', page: 50 },
       support: [
         { text: 'I never lied. That’s important. I never pretended to be Chinese', who: 'June, defending the rebrand', page: 51 }
       ],
-      concepts: ['Ideological', 'Institutional', 'Unreliable narration'],
-      connection: 'Ideological: racial expectations and marketable authenticity. Institutional: publisher-directed branding.'
+      concepts: ['Ideological', 'Institutional'],
+      connection: 'Ideological: ideas about who gets to represent a culture. Institutional: the publisher decides how to brand the author.'
     },
     {
       slug: 'candice',
       title: 'Silencing Candice',
       alt: 'Illustration: two women at a conference table. One, in a blazer, points at a line in a heavily tabbed manuscript. The other sits back with her arms crossed.',
-      setup: 'Six months before publication, Candice Lee, an editorial assistant at Eden, asks the team to hire a sensitivity reader: someone who knows the history and the language and can catch mistakes and stereotypes. June says no. Candice asks again, this time copying the whole team.',
+      setup: 'Candice Lee, an editorial assistant, wants to hire a sensitivity reader to catch the mistakes and stereotypes. June rejects the idea.',
       question: 'Candice Lee warns that the book could misrepresent Chinese people and asks for informed review. Do you listen or complain about her?',
       a: {
         label: 'Listen to Candice',
-        analysis: 'Listening recognizes that relevant cultural and historical knowledge can improve a book and prevent harm. Candice’s intervention is professional criticism, not proof that June is being persecuted because she is white. Your response gives an Asian American staff member’s expertise weight. The novel proceeds differently: Candice is removed from the project. That contrast shows how an institution can invite diverse participation while failing to protect the people who question its decisions.'
+        analysis: 'Listening to Candice shows how you recognize the importance of cultural and historical knowledge. Candice is giving real criticism. She is not persecuting June for being white. The novel proceeds differently: Candice is removed from the project. A company can invite diverse voices in and still fail to protect the people who question its decisions.'
       },
       b: {
         label: 'Complain about Candice',
-        analysis: 'Complaining reframes a substantive concern as a problem with the person who raises it. June’s defensiveness becomes more powerful when the publisher removes Candice from the project. The interpersonal dismissal and institutional consequence reinforce each other: someone with less authority loses influence, while the commercially favored author keeps hers. This passage does not prove that every publisher behaves identically. It shows one specific decision and the pattern that decision illustrates.'
+        analysis: 'June’s defensiveness of her project and her secret becomes more powerful when the publisher removes Candice from the project. The interpersonal dismissal and the institutional consequence for Candice show when someone with less authority loses power while June keeps hers.'
       },
-      june: 'b',
-      juneShort: 'Refuses the review; Candice is removed',
       canon: 'June refuses the sensitivity reader and the publisher defers to her. Candice sends an apology for her tone. Then June’s editor tells her privately that Candice has been taken off the project.',
       quote: { text: 'June is not Chinese diaspora, and we run the risk of doing real harm', who: 'Candice', page: 52 },
       support: [
         { text: 'Candice has been taken off the project.', who: 'June, reporting her editor’s message', page: 53 }
       ],
       concepts: ['Interpersonal', 'Institutional'],
-      connection: 'Interpersonal: dismissal of Candice’s concerns. Institutional: removal from the project.'
+      connection: 'Interpersonal: June dismisses Candice’s concerns. Institutional: the publisher takes Candice off the project.'
     },
     {
       slug: 'accusation',
       title: 'The accusation',
       alt: 'Illustration: a worried woman at a laptop at night, hand to her mouth, as stacked social media posts and jagged reply bubbles pile up beside the screen.',
-      setup: 'The Last Front is a hit. Then an anonymous account called @AthenaLiusGhost posts that Juniper Song did not write it. The thread spreads. Some replies are criticism: readers who are disappointed and want a public apology. Others are abuse, including threats of violence.',
+      setup: 'The Last Front is a hit. Then an anonymous account called @AthenaLiusGhost posts that Juniper Song did not write it. The thread spreads. Some readers are disappointed and want a public apology, while others send threats of violence.',
       question: 'An anonymous account accuses you of stealing Athena’s work. Criticism, hate comments, and threats follow. Do you confess or deny it?',
       a: {
         label: 'Confess to the theft',
-        analysis: 'Confessing would acknowledge the difference between being attacked online and being accountable for plagiarism. Threats remain unacceptable, but they do not erase the original harm to Athena. Your choice asks what responsibility would look like when reputation is at stake. June instead continues defending herself. Compare the evidence for her wrongdoing with her insistence that she is the victim, and consider how she uses real distress to redirect attention away from authorship.'
+        analysis: 'Confessing would mean taking responsibility for the plagiarism, even with your reputation at stake. The threats are still unacceptable, but they do not erase the harm done to Athena. June keeps defending herself instead.'
       },
       b: {
         label: 'Deny the accusation',
-        analysis: 'Denying prioritizes reputation and extends the concealment. June can focus on the cruelty of some messages to portray the entire backlash as persecution, even when the underlying accusation concerns a genuine theft. Keep criticism and threats distinct: accountability is not the same as harassment. This scene illustrates interpersonal abuse and June’s self-justification, but threats against June do not automatically establish racial oppression against white people.'
+        analysis: 'Denying the accusation shows how you prioritize your reputation and status. June uses these hate comments to frame herself as the victim. This scene illustrates interpersonal abuse, but threats against June do not automatically establish racial oppression against white people.'
       },
-      june: 'b',
-      juneShort: 'Denies it and defends herself',
-      canon: 'June keeps resisting exposure and defending her own account of events. She never makes a straightforward admission of theft.',
+      canon: 'June keeps resisting exposure and defending her own account of events, and she never admits to the theft.',
       quote: { text: 'She stole my book, stole my voice, and stole my words.', who: 'Anonymous account', page: 102 },
       support: [
         { text: 'I’m going to come to DC and beat the living shit out of you.', who: 'A message sent to June. This is a threat, not criticism', page: 104 },
         { text: 'I am not the bad guy. I am the victim here.', who: 'June', page: 110 }
       ],
-      concepts: ['Interpersonal', 'Unreliable narration'],
-      connection: 'Interpersonal: online threats and abuse. Unreliable narration: June’s victim framing is her perspective, not this project’s conclusion.'
+      concepts: ['Interpersonal'],
+      connection: 'Interpersonal: online threats and abuse.'
     },
     {
       slug: 'profit',
       title: 'Protected by profit',
       alt: 'Illustration: a woman in a dark sweater smiles slightly across a glass table stacked with copies of a yellow-and-black book, as a publisher’s hand gestures toward her.',
-      setup: 'The accusation becomes a public scandal. On a video call, June’s editor is cold and tells her to stay off social media. Right afterward her agent, Brett, phones with different news: the controversy is free marketing, and sales are up.',
+      setup: 'The accusation becomes a public scandal. On a video call, June’s editor is cold and tells her to stay off social media. Right afterward her agent, Brett, calls and says that controversy is good for sales.',
       framing: 'This question is our own framing. The novel does not show June being offered this choice in these words.',
       question: 'Your publisher continues backing you because the book makes money. Do you accept that protection or take responsibility?',
       a: {
         label: 'Accept the publisher’s protection',
-        analysis: 'Accepting support allows commercial success to function as a shield from consequences. Brett’s explanation connects the publisher’s loyalty to revenue rather than establishing June’s innocence. This is institutional power: the organization controls promotion, credibility, and the author’s continued access to the market. The scene shows how a system can preserve a profitable arrangement despite ethical concerns, and how June benefits from that arrangement.'
+        analysis: 'Accepting the support lets the book’s success protect you from consequences. Brett ties the publisher’s loyalty to money. He never says June is innocent. This is institutional power: the publisher controls her promotion and whether she keeps getting published.'
       },
       b: {
         label: 'Take responsibility despite the support',
-        analysis: 'Choosing responsibility rejects the idea that an organization’s approval proves an action was right. A successful book can still rest on stolen labor, and a publisher’s financial interest may make its judgment less trustworthy. Your response highlights an alternative June resists: naming the harm even when powerful people offer reassurance. The story still follows her continued defense and the support described by Brett, exposing the gap between institutional protection and accountability.'
+        analysis: 'Taking responsibility means a publisher’s approval does not make an action right. A bestselling book can still be built on stolen work, and a publisher that profits from it is not a fair judge. June does the opposite and keeps the support Brett describes.'
       },
-      june: 'a',
-      juneShort: 'Accepts the protection',
       canon: 'Brett tells June that Eden will stand with her because she brings in too much money. June is relieved and continues defending her position.',
       quote: { text: 'Eden’s going to stand with you. You’re pulling in too much money for them to back out now.', who: 'Brett, June’s agent', page: 159 },
       support: [],
       concepts: ['Institutional'],
-      connection: 'Institutional: financial incentives and organizational protection.'
+      connection: 'Institutional: the publisher protects June because of the money she brings in.'
     },
     {
       slug: 'recording',
       title: 'The recording',
       alt: 'Illustration: a dark-haired woman in a black coat clutches a phone showing a recording waveform and looks back as a second woman in a dark sweater lunges after her.',
-      setup: 'June goes to a long outdoor staircase in Georgetown at night, half believing Athena herself will be waiting. Candice is there instead, with hidden cameras. June says enough to incriminate herself. Candice plays the recording back, packs up, and turns to leave.',
+      setup: 'June goes to Georgetown at night, believing Athena will be there. But Candice is there instead with a recording device. June says enough to incriminate herself, and Candice gets all of it on the recording.',
       question: 'Candice has recorded your admissions and is leaving with the evidence. Do you let her go or fight to stop her?',
       a: {
         label: 'Let Candice leave',
-        analysis: 'Letting her leave would allow evidence to challenge June’s control over the story. Candice’s recording can be analyzed as individual resistance: someone pushed aside by the publishing process seeks another route to expose wrongdoing. Her testimony about publishers already having an Asian writer also reveals institutional scarcity and ideological tokenism. Your response accepts the possibility of accountability; June instead tries to stop Candice physically, driving the tension toward its breaking point.'
+        analysis: 'Letting her leave means the evidence gets out and June loses control of the story. What Candice says about publishers already having an Asian writer also shows institutional scarcity and ideological tokenism. June does not let her go. She tries to stop Candice physically.'
       },
       b: {
         label: 'Fight for the recording',
-        analysis: 'Trying to seize the recording turns June’s fear of exposure into physical action. The conflict peaks because the issue is no longer only whose account people believe: Candice possesses recorded evidence, and June tries to prevent it from leaving her control. Her attack shows the intensity of her commitment to protecting her career. This is escalating interpersonal harm and a crisis of accountability, which is what makes it the breaking point. It is more than the most exciting scene.'
+        analysis: 'Trying to take the recording turns June’s fear of being exposed into violence. Candice now has proof, so June can no longer argue her way out. That is why this is the breaking point of the novel.'
       },
-      june: 'b',
-      juneShort: 'Attacks Candice',
       canon: 'June realizes Candice has been recording and throws herself at Candice’s waist. They fight at the top of the steps. Candice kicks free and June falls. She wakes in a hospital with a broken collarbone, a broken ankle, and a concussion.',
       quote: { text: 'I throw myself at Candice’s waist.', who: 'June', page: 224 },
       support: [
@@ -154,33 +142,31 @@
         { text: 'They marked her as their token, exotic Asian girl.', who: 'Candice, about Athena', page: 222 },
         { text: 'Do you know what it’s like to pitch a book and be told they already have an Asian writer?', who: 'Candice', page: 222 }
       ],
-      concepts: ['Breaking point', 'Interpersonal', 'Resistance', 'Ideological', 'Institutional'],
-      connection: 'Breaking point, interpersonal harm, and Candice’s resistance. Candice’s two lines are our main evidence for ideological tokenism and institutional scarcity.'
+      concepts: ['Breaking point', 'Interpersonal', 'Ideological', 'Institutional'],
+      connection: 'Breaking point and interpersonal harm. Candice’s two lines are our main evidence for ideological tokenism and institutional scarcity.'
     },
     {
       slug: 'comeback',
       title: 'The comeback',
       alt: 'Illustration: seen from behind, a woman in a dark sweater types at a laptop under a desk lamp, with a tall stack of manuscript pages and an open notebook beside her.',
-      setup: 'Candice goes public. The New York Times runs her interview, and a month later she sells a memoir about the scandal for seven figures. Eden, the publisher that took her off June’s book, says it would love to work with her. June, recovering alone, starts planning a book of her own.',
+      setup: 'Candice goes public. June starts planning a book of her own.',
       framing: 'This question is our own framing. It is an interpretation of June’s plan, not a quoted exchange.',
       question: 'After the confrontation, you plan another manuscript about the scandal. Do you admit the theft or recast the situation as a hoax?',
       a: {
         label: 'Write an honest account',
-        analysis: 'An honest account would require June to name what she took and whom she harmed, rather than treating her own suffering as the whole story. It could begin accountability, but writing a confession alone would not guarantee repair or healing. Your choice offers a contrast with June’s actual plan. Ask whether her new manuscript returns recognition to Athena and Candice or simply gives June another opportunity to control attention and profit from the controversy.'
+        analysis: 'An honest account would mean June naming what she took and who she hurt, without making her own suffering the whole story. It could be a start at accountability, though a confession alone would not repair anything. June’s actual plan is different. Ask whether her new book gives any credit back to Athena and Candice, or just gives June another way to get attention and money from the scandal.'
       },
       b: {
         label: 'Recast the scandal as a hoax',
-        analysis: 'Recasting the situation as a hoax continues June’s pattern of replacing responsibility with a more favorable narrative. The ending therefore suggests persistence of the problem rather than clear moral growth. June’s effort to regain authority is not automatically resistance to oppression or evidence of healing. Candice’s attempt to expose the theft is a stronger resistance example. The warning is that visibility, persuasive storytelling, and commercial value can outlast meaningful accountability.'
+        analysis: 'Calling it a hoax is June doing what she always does: swapping responsibility for a story that makes her look better. The ending shows the problem continuing, with no real moral growth. June trying to win back her authority is not resistance to oppression, and it is not healing. Candice exposing the theft is the stronger example of resistance. The warning is that attention, good storytelling, and sales can outlast accountability.'
       },
-      june: 'b',
-      juneShort: 'Plans to call it a hoax',
-      canon: 'June plans a new book that reframes the scandal in her favor: the theft becomes a “hoax” meant to expose the industry, and she becomes its hero. She does not admit the theft.',
+      canon: 'June plans a new book that retells the scandal in her favor. The theft becomes a “hoax” meant to expose the industry, and she becomes its hero. She does not admit the theft.',
       quote: { text: 'let’s frame it as a hoax, not a theft', who: 'June', page: 230 },
       support: [
         { text: 'And this will become, in time, my story once again.', who: 'June, the novel’s last line', page: 231 }
       ],
       concepts: ['Resistance and healing', 'Systemic change'],
-      connection: 'Resistance and healing: Candice’s challenge is different from June’s reputation management. Systemic change is not established by this ending.'
+      connection: 'Resistance and healing: Candice exposing the theft is different from June managing her reputation. The ending does not show any systemic change.'
     }
   ];
 
@@ -365,7 +351,6 @@
   function resultHTML(i, key) {
     var s = SCENES[i];
     var other = key === 'a' ? 'b' : 'a';
-    var same = s.june === key;
     var support = '';
     for (var k = 0; k < s.support.length; k++) support += quoteHTML(s.support[k], 'quote--support');
     var tags = '';
@@ -389,10 +374,6 @@
             '<article class="card card--canon" data-rise>' +
               '<p class="label">What June actually does</p>' +
               '<p class="canon__text">' + esc(s.canon) + '</p>' +
-              '<p class="canon__note">' +
-                (same ? 'This time your answer matches June’s. ' : 'Your answer differs from June’s. ') +
-                'Both answers lead to this same event. Nothing you pick changes the novel.' +
-              '</p>' +
             '</article>' +
             '<div class="evidence" data-rise>' +
               '<p class="label">Direct quotation</p>' +
@@ -409,263 +390,67 @@
       '</section>';
   }
 
-  function summaryRowsHTML() {
-    var rows = '';
-    var answered = 0, matched = 0;
-    for (var i = 0; i < TOTAL; i++) {
-      var s = SCENES[i];
-      var key = state.answers[s.slug];
-      var yours = key ? esc(s[key].label) : '<span class="muted">Not answered</span>';
-      var cmp = '';
-      if (key) {
-        answered++;
-        if (key === s.june) { matched++; cmp = '<span class="pill pill--same">Same as June</span>'; }
-        else cmp = '<span class="pill pill--diff">Different from June</span>';
-      }
-      rows += '<tr>' +
-        '<th scope="row"><button type="button" class="linklike" data-go="scene-' + (i + 1) + '">' + (i + 1) + '. ' + esc(s.title) + '</button></th>' +
-        '<td>' + yours + '</td>' +
-        '<td>' + esc(s.juneShort) + '</td>' +
-        '<td>' + cmp + '</td>' +
-      '</tr>';
-    }
-    var line;
-    if (answered === 0) line = 'You have not answered any scenes yet. Go back and try them, then return here.';
-    else line = 'You answered ' + answered + ' of ' + TOTAL + ' scenes and made the same choice as June in ' + matched + '.';
-    return { rows: rows, line: line };
-  }
-
   function reflectionHTML() {
-    var sum = summaryRowsHTML();
     return '' +
       '<article class="reflection" aria-labelledby="view-title">' +
         '<header class="reflection__head">' +
           '<div class="wrap">' +
             '<p class="kicker kicker--on-dark">Final reflection</p>' +
-            '<h1 id="view-title" class="display" tabindex="-1" data-reveal>What seven choices add up to</h1>' +
-            '<p class="reflection__lead">June makes a choice in every scene. Each time, the people and the company around her make the wrong choice easier than the right one. This page puts the scenes together using our class framework.</p>' +
-            '<nav class="jump" aria-label="Sections of the reflection">' +
-              '<button type="button" data-jump="r-system">1. The system exposed</button>' +
-              '<button type="button" data-jump="r-four">2. The 4 I’s</button>' +
-              '<button type="button" data-jump="r-break">3. Breaking point</button>' +
-              '<button type="button" data-jump="r-resist">4. Resistance</button>' +
-              '<button type="button" data-jump="r-mirror">5. Mirror to society</button>' +
-              '<button type="button" data-jump="r-yours">Your answers</button>' +
-              '<button type="button" data-jump="r-sources">Sources</button>' +
-              '<button type="button" data-jump="r-credits">Credits</button>' +
-            '</nav>' +
+            '<h1 id="view-title" class="display" tabindex="-1" data-reveal>Mirror to society</h1>' +
+            '<p class="reflection__lead"><cite>Yellowface</cite> is fiction, but the patterns in it are older than the novel, and you can still measure them today. Both connections below link to their sources at the bottom of the page.</p>' +
           '</div>' +
         '</header>' +
 
-        '<section class="rsec" id="r-system" aria-labelledby="h-system"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">1</div>' +
-          '<div class="rsec__body">' +
-            '<h2 id="h-system" tabindex="-1">The system exposed</h2>' +
-            '<p class="label">Our interpretation</p>' +
-            '<p>The root problem in <cite>Yellowface</cite> is racism in publishing: who gets to tell a story, who gets paid for it, and who gets pushed out of the room. The novel shows a business that sells Asian American identity as a product while keeping Asian American people away from the decisions.</p>' +
-            '<p>Follow one manuscript through the seven scenes. A Chinese American writer drafts it. A white writer takes it (scene 1). The publisher gives her a name that sounds Chinese (scene 2). The one Asian American staff member who objects is removed (scene 3). When the theft is exposed, the publisher stays loyal because the book is selling (scene 5). June’s theft is one person’s decision. It becomes a system because so many other people have a reason to go along with it.</p>' +
-            q('This industry is built on silencing us', 'Candice', 222) +
-            '<p>That line is Candice’s claim, made in anger. We treat it as testimony the rest of the novel supports with specific events at one fictional publisher. We are not claiming that every real publisher acts this way.</p>' +
-            '<p>June tells a different story about race. She says she is the one being discriminated against, and calls the criticism of her <mark>“reverse racism”</mark> <span class="src">(p. 223)</span>. That is her perspective. The events of the novel do not support it: she keeps her book deal, her sales, and her publisher’s backing for most of the story.</p>' +
-          '</div>' +
-        '</div></section>' +
-
-        '<section class="rsec rsec--alt" id="r-four" aria-labelledby="h-four"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">2</div>' +
+        '<section class="rsec" id="r-mirror" aria-labelledby="h-mirror"><div class="wrap">' +
           '<div class="rsec__body rsec__body--wide">' +
-            '<h2 id="h-four" tabindex="-1">The 4 I’s in action</h2>' +
-            '<p class="label">Our interpretation</p>' +
-            '<p>The four I’s are four levels where oppression operates. In this novel they feed each other: a belief becomes a company decision, the decision gives one person power over another, and the people on the losing side start to act on the belief themselves.</p>' +
-            '<div class="four">' +
-
-              '<section class="icard" aria-labelledby="i-ideo">' +
-                '<h3 id="i-ideo">Ideological</h3>' +
-                '<p class="icard__def">Beliefs and stereotypes that make unequal treatment seem normal.</p>' +
-                '<p>The belief here is that an Asian American writer has one job: to be “the Asian writer” and sell racial trauma. A second belief treats Asian people as interchangeable. When Candice asks for a Chinese sensitivity reader, June’s agent suggests Candice do it herself, and Candice has to point out that she is Korean American (p. 53). The stereotype also lives in June. In the middle of attacking Candice, she thinks of Candice and Athena as dolls.</p>' +
-                q('They marked her as their token, exotic Asian girl.', 'Candice, about Athena', 222) +
-                q('like little porcelain dolls', 'June', 224) +
-                '<p class="icard__scenes">Seen in scenes 2 and 6.</p>' +
-              '</section>' +
-
-              '<section class="icard" aria-labelledby="i-inst">' +
-                '<h3 id="i-inst">Institutional</h3>' +
-                '<p class="icard__def">Policies and decisions made by organizations.</p>' +
-                '<p>Eden Press proposes the name Juniper Song. It removes Candice from the project after she raises concerns. It keeps backing June because of money. And Candice describes pitching a book and hearing that there is no room, because one Asian writer is already on the list. The novel supports this scarcity as a pattern through her account. It is not a literal rule that only one Asian author can ever succeed.</p>' +
-                q('Do you know what it’s like to pitch a book and be told they already have an Asian writer?', 'Candice', 222) +
-                q('You’re pulling in too much money for them to back out now.', 'Brett', 159) +
-                '<p class="icard__scenes">Seen in scenes 2, 3, 5, and 6.</p>' +
-              '</section>' +
-
-              '<section class="icard" aria-labelledby="i-inter">' +
-                '<h3 id="i-inter">Interpersonal</h3>' +
-                '<p class="icard__def">What individual people do to each other.</p>' +
-                '<p>June takes her friend’s work, dismisses Candice’s warning as complaining, and in the end attacks her physically. The online response to June has two parts that should not be mixed up. Readers who say she owes an apology for a real theft are holding her accountable. People who send threats are abusing her. The threats are wrong. They do not make the accusation false, and they are not evidence that June is oppressed for being white.</p>' +
-                q('I determine Candice exists entirely to complain about microaggressions', 'June', 53) +
-                '<p class="icard__scenes">Seen in scenes 1, 3, 4, and 6.</p>' +
-              '</section>' +
-
-              '<section class="icard icard--open" aria-labelledby="i-intern">' +
-                '<p class="flag">Evidence still to be confirmed</p>' +
-                '<h3 id="i-intern">Internalized</h3>' +
-                '<p class="icard__def">When people in a targeted group come to believe or act on the negative messages about their own group.</p>' +
-                '<p>June cannot be the example. She is white, and her belief that she is the real victim is self-justification. An early draft of our planner listed it here, and we have corrected that.</p>' +
-                '<p>We searched the novel for a better example and found three passages that may fit. All three reach us secondhand, through June’s hostile narration or Candice’s anger, so we present them as candidates and not as proof.</p>' +
-                '<ul class="cands">' +
-                  '<li>Athena gave up her family’s language to fit in. June reports that Athena said in interviews she ' + '<mark>“spoke only English at home in an attempt to better assimilate”</mark> <span class="src">(p. 85)</span>.</li>' +
-                  '<li>Athena played the part the industry wrote for her. Candice says: <mark>“She leaned into it, too. She knew the rules.”</mark> <span class="src">(p. 222)</span></li>' +
-                  '<li>Scarcity turned Asian American writers against each other. Candice says the others hated Athena (p. 223), and an anonymous thread from within the Chinese American community brands her a <mark>“race traitor”</mark> <span class="src">(p. 128, as June summarizes it)</span>.</li>' +
-                '</ul>' +
-                '<p><strong>Status:</strong> our group and our teacher still need to decide whether these passages satisfy this category. Until then we count internalized oppression as only partly supported.</p>' +
-              '</section>' +
-
-            '</div>' +
-          '</div>' +
-        '</div></section>' +
-
-        '<section class="rsec" id="r-break" aria-labelledby="h-break"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">3</div>' +
-          '<div class="rsec__body">' +
-            '<h2 id="h-break" tabindex="-1">Breaking point</h2>' +
-            '<p class="label">Our interpretation</p>' +
-            '<p>Tension peaks on the steps in scene 6. For more than two hundred pages the question has been whose version people will believe, and June has been able to keep hers alive. Candice ends that by recording June’s own voice. June can no longer argue her way out, so she uses her body.</p>' +
-            q('I will not let Candice walk away with my fate in her hands.', 'June', 223) +
-            '<p>What happens to June emotionally is the most revealing part. In the seconds before she attacks, she describes her feelings as <mark>“Years of suppressed rage”</mark> at being <mark>“treated like a stereotype”</mark> <span class="src">(p. 223)</span>. She is about to tackle an Asian American woman to protect a stolen book, and in that same moment she casts herself as the person being stereotyped. During the fight she even thinks through how Candice’s death could be explained as an accident (p. 224). This is the furthest her self-deception goes, and it is why we call it the breaking point.</p>' +
-          '</div>' +
-        '</div></section>' +
-
-        '<section class="rsec rsec--alt" id="r-resist" aria-labelledby="h-resist"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">4</div>' +
-          '<div class="rsec__body">' +
-            '<h2 id="h-resist" tabindex="-1">Resistance and revolution</h2>' +
-            '<p class="label">Our interpretation</p>' +
-            '<h3>Individual resistance</h3>' +
-            '<p>Candice resists twice. First she uses the proper channel and asks for a sensitivity reader, and she is removed for it. Later, shut out of the company, she gets the truth on record herself. The novel does not turn her into a simple hero. She tells June plainly whose interest she is serving, and she sells the story for seven figures (p. 229).</p>' +
-            q('This is for me.', 'Candice', 223) +
-            '<h3>Community responses</h3>' +
-            '<p>Readers organize online around the hashtag #SaveAthena (p. 102). Asian American critics publish detailed critiques of how June’s version handles the laborers’ history (p. 109). Emmy Cho, the young writer June mentors, ends the mentorship (p. 155). These responses are how the community holds June accountable when her publisher will not. The novel also shows the same crowd turning on Athena after her death (p. 128), which is a reminder that an online pile-on and a community seeking justice are not always the same thing.</p>' +
-            '<h3>Healing</h3>' +
-            '<p>Nobody heals. June’s bones are set and her thinking has not moved. Athena cannot get her book or her name back. Candice gains money and attention, which is a win for her and still not repair.</p>' +
-            '<h3>Systemic change</h3>' +
-            '<p>We found none. The publisher’s only visible change is which story it wants to buy next. Eden removed Candice when she objected. Once her story is valuable, Eden says publishing her would be <mark>“the ideal way to make amends”</mark> <span class="src">(p. 227)</span>. The profit motive that protected June now chases Candice’s memoir, and June expects publishers to bid on her counter-story too (p. 230). The rules of the business are the same at the end as at the start.</p>' +
-          '</div>' +
-        '</div></section>' +
-
-        '<section class="rsec" id="r-mirror" aria-labelledby="h-mirror"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">5</div>' +
-          '<div class="rsec__body rsec__body--wide">' +
-            '<h2 id="h-mirror" tabindex="-1">Mirror to society</h2>' +
+            '<h2 id="h-mirror" tabindex="-1">What this story shows about our world</h2>' +
             '<p class="label">Our research</p>' +
-            '<p class="rsec__intro">The novel is fiction. The patterns in it are older than the novel and are still measurable today. Each connection below names its source, and every source is linked at the bottom of the page.</p>' +
-
-            '<h3>Historical connections</h3>' +
             '<div class="research">' +
               '<section class="rcard" aria-labelledby="hc-1">' +
-                '<p class="rcard__date">1937</p>' +
-                '<h4 id="hc-1">The original yellowface</h4>' +
-                '<p>When MGM filmed <cite>The Good Earth</cite>, a novel about a Chinese farming family, author Pearl S. Buck hoped for a Chinese cast. According to the Museum of Chinese in America, the producers did not think that would appeal to American audiences. Chinese American star Anna May Wong was replaced in the lead by Luise Rainer, the major roles went to white actors in yellowface, and Rainer won the Academy Award for Best Actress.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> a studio decided a Chinese story would sell better with a white face on it. Eden Press makes the same calculation in scene 2, with a name instead of makeup.</p>' +
-                '<p class="rcard__src">Source: Museum of Chinese in America [1]</p>' +
-              '</section>' +
-              '<section class="rcard" aria-labelledby="hc-2">' +
+                '<p class="label">Historical connection</p>' +
                 '<p class="rcard__date">1882 to 1943</p>' +
-                '<h4 id="hc-2">Exclusion, then praise when it was useful</h4>' +
-                '<p>The Chinese Exclusion Act of 1882 banned Chinese laborers from immigrating for ten years. Congress extended it in 1892 and made it permanent in 1902. It was repealed in 1943, when China was a wartime ally, and even then only 105 Chinese immigrants were allowed in each year. NPR’s Code Switch reports that the repeal campaign recast Chinese people as “law-abiding, peace-loving” neighbors, and that since World War II the image of successful Asian Americans has been used as a wedge against other minority groups, especially Black Americans.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> acceptance that arrives only when it is convenient, and one “success story” held up against everyone else. Candice describes the publishing version: Athena exists, so other Asian writers are told they are redundant.</p>' +
-                '<p class="rcard__src">Sources: U.S. National Archives [2]; NPR Code Switch [3]</p>' +
+                '<h3 id="hc-1">Exclusion, then praise when it was useful</h3>' +
+                '<p>The Chinese Exclusion Act of 1882 banned Chinese laborers from immigrating for ten years. Congress extended it in 1892 and made it permanent in 1902. It was only repealed in 1943, when China was a wartime ally, and even then just 105 Chinese immigrants were allowed in each year. NPR’s Code Switch reports that the repeal campaign recast Chinese people as “law-abiding, peace-loving” neighbors, and that since World War II the image of successful Asian Americans has been used as a wedge against other minority groups, especially Black Americans.</p>' +
+                '<p class="rcard__link"><strong>Link to the novel:</strong> acceptance showed up only when it was convenient, and one “success story” got held up against everyone else. Candice describes the publishing version of this. Athena exists, so other Asian writers are told they are redundant.</p>' +
+                '<p class="rcard__src">Sources: U.S. National Archives [1]; NPR Code Switch [2]</p>' +
               '</section>' +
-              '<section class="rcard" aria-labelledby="hc-3">' +
-                '<p class="rcard__date">World War I</p>' +
-                '<h4 id="hc-3">The Chinese Labour Corps</h4>' +
-                '<p>The manuscript June steals is about real people. In the novel, <cite>The Last Front</cite> tells the story of the <mark>“140,000 Chinese workers”</mark> <span class="src">(p. 25)</span> recruited to support the Allied armies in World War I. The Imperial War Museums describe the Chinese Labour Corps as a force of workers recruited by the British government for support work and manual labour, and call it a “hidden history.”</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> a history that was left out for a century is recovered by a Chinese American writer and then taken from her. In her edits, June softens it, swapping a white bully for a Chinese character (p. 37).</p>' +
-                '<p class="rcard__src">Source: Imperial War Museums [4]</p>' +
-              '</section>' +
-            '</div>' +
-
-            '<h3>Current connections</h3>' +
-            '<div class="research">' +
               '<section class="rcard" aria-labelledby="cc-1">' +
-                '<p class="rcard__date">2023 survey</p>' +
-                '<h4 id="cc-1">Who works in publishing</h4>' +
-                '<p>Lee &amp; Low Books surveyed the publishing workforce for the third time in 2023 and got 8,644 responses. 72.5 percent of staff at publishers, review journals, and literary agencies identified as White, down from 79 percent in 2015 and 76 percent in 2019. 7.8 percent identified as Asian, Native Hawaiian, Pacific Islander, South Asian, or Southeast Indian.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> Candice is one of very few Asian American people in the room at Eden, which is why removing her removes the objection.</p>' +
-                '<p class="rcard__src">Source: Lee &amp; Low Diversity Baseline Survey 3.0 [5]</p>' +
-              '</section>' +
-              '<section class="rcard" aria-labelledby="cc-2">' +
-                '<p class="rcard__date">2020 analysis</p>' +
-                '<h4 id="cc-2">Who gets published</h4>' +
-                '<p>McGill professor Richard Jean So analyzed data from major publishing houses for a <cite>New York Times</cite> piece. Between 1950 and 2018, 95 percent of the books in his data were written by white authors. For 2018 alone the figure was 89 percent.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> June believes publishing now favors writers of color over people like her. The numbers say the opposite.</p>' +
-                '<p class="rcard__src">Source: McGill News on Richard Jean So’s research [6]</p>' +
-              '</section>' +
-              '<section class="rcard" aria-labelledby="cc-3">' +
-                '<p class="rcard__date">January 2020</p>' +
-                '<h4 id="cc-3">The <cite>American Dirt</cite> controversy</h4>' +
-                '<p>NPR reported that Jeanine Cummins received a hefty advance and a big promotional push for <cite>American Dirt</cite>, a novel about a Mexican mother and son fleeing a cartel. Critics called the book inaccurate and full of harmful stereotypes and questioned whether she was the right person to tell that story. Her publisher’s president admitted “deep inadequacies” in how the company handles representation. The publisher also cancelled her tour, citing threats, and condemned those threats.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> a real case with the same three pieces as scene 4: a publisher’s marketing choices, legitimate criticism from the community being written about, and threats that are a separate wrong.</p>' +
-                '<p class="rcard__src">Source: NPR [7]</p>' +
-              '</section>' +
-              '<section class="rcard" aria-labelledby="cc-4">' +
+                '<p class="label">Current connection</p>' +
                 '<p class="rcard__date">2025 and 2026 surveys</p>' +
-                '<h4 id="cc-4">Anti-Asian hate has not gone away</h4>' +
-                '<p>Stop AAPI Hate’s national survey found that about half (49 percent) of Asian American and Pacific Islander adults experienced a hate act in 2025 because of their race, ethnicity, or nationality, and that online was the most common place for it (43 percent). In a Pew Research Center report from May 2025, 82 percent of Asian Americans said Asian people face a lot of or some discrimination.</p>' +
+                '<h3 id="cc-1">Anti-Asian hate has not gone away</h3>' +
+                '<p>Stop AAPI Hate’s national survey found that about half (49 percent) of Asian American and Pacific Islander adults experienced a hate act in 2025 because of their race, ethnicity, or nationality. The most common place for it was online (43 percent). In a Pew Research Center report from May 2025, 82 percent of Asian Americans said Asian people face a lot of or some discrimination.</p>' +
                 '<p class="rcard__link"><strong>Link to the novel:</strong> Athena gets racist harassment and death threats online years before June is criticized for a theft (p. 114). June admits she thought Athena was exaggerating, until it happened to her.</p>' +
-                '<p class="rcard__src">Sources: Stop AAPI Hate [8]; Pew Research Center [9]</p>' +
+                '<p class="rcard__src">Sources: Stop AAPI Hate [3]; Pew Research Center [4]</p>' +
               '</section>' +
             '</div>' +
 
             '<h3>What it shows about human nature</h3>' +
-            '<p>June never once thinks of herself as the villain. Every choice comes with a reason attached: Athena was already dead, the book needed her edits, she never technically lied, the internet is cruel, the industry is rigged. People protect their picture of themselves with stories, and they sort the world into “us” and “them” to make those stories work. Institutions do the same thing with money attached.</p>' +
+            '<p>June never thinks of herself as the villain. Every choice comes with an excuse: Athena was already dead, the book needed her edits, she never technically lied, the internet is cruel, the industry is rigged. People protect how they see themselves with stories like these, and they split the world into “us” and “them” so the stories hold up. Companies do the same thing, with money involved.</p>' +
             q('I am not the bad guy. I am the victim here.', 'June', 110) +
 
             '<h3>Our warning</h3>' +
-            '<p>The last pages are the warning. A skilled storyteller with a market can outlast accountability. June loses the argument and immediately starts drafting a new one, confident someone will pay for it.</p>' +
+            '<p>The last pages are the warning. A good storyteller with an audience can outlast accountability. June loses the argument and starts drafting a new one right away, sure that someone will pay for it.</p>' +
             q('The truth is fluid.', 'June', 229) +
-
-            '<h3>Our hope</h3>' +
-            '<p>We hope to see racial bias removed from our society, and less conflict between people based only on race. In this story, the changes that would have mattered are small and specific. Hire the reader Candice asked for. Keep the person who objects in the room. Make space for more than one Asian American writer at a time. Readers have a part too: notice whose name is on the cover and whose is missing, and criticize without threatening.</p>' +
           '</div>' +
         '</div></section>' +
 
-        '<section class="rsec rsec--alt" id="r-yours" aria-labelledby="h-yours"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">✓</div>' +
-          '<div class="rsec__body rsec__body--wide">' +
-            '<h2 id="h-yours" tabindex="-1">Your answers and June’s</h2>' +
-            '<p>' + sum.line + '</p>' +
-            '<div class="tablewrap"><table class="summary">' +
-              '<thead><tr><th scope="col">Scene</th><th scope="col">Your answer</th><th scope="col">What June does</th><th scope="col">Compared</th></tr></thead>' +
-              '<tbody>' + sum.rows + '</tbody>' +
-            '</table></div>' +
-            '<p class="muted">Select a scene name to review it. Your answers stay saved until you restart or close this tab.</p>' +
-          '</div>' +
-        '</div></section>' +
-
-        '<section class="rsec" id="r-sources" aria-labelledby="h-sources"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">§</div>' +
+        '<section class="rsec rsec--alt" id="r-sources" aria-labelledby="h-sources"><div class="wrap">' +
           '<div class="rsec__body rsec__body--wide">' +
             '<h2 id="h-sources" tabindex="-1">Sources</h2>' +
             '<h3>The novel</h3>' +
-            '<p>Kuang, R. F. <cite>Yellowface</cite>. William Morrow, 2023. Page numbers on this site refer to the pages of our group’s PDF copy and will not match a print edition.</p>' +
-            '<h3>Framework</h3>' +
-            '<p>The five analysis questions and the four I’s of oppression come from our class materials. The Ethnic Studies Praxis Story Plot is credited there to Curammeng, Lopez, and Tintiangco-Cubales (2016).</p>' +
+            '<p>Kuang, R. F. <cite>Yellowface</cite>. William Morrow, 2023. Page numbers on this site are the pages of our group’s PDF copy, so they will not match a print edition.</p>' +
             '<h3>Research</h3>' +
             '<ol class="sources">' +
-              '<li>Museum of Chinese in America. “The Good Earth.” <a href="https://www.mocanyc.org/collections/stories/the-good-earth/" target="_blank" rel="noopener">mocanyc.org/collections/stories/the-good-earth</a></li>' +
               '<li>U.S. National Archives. “Chinese Exclusion Act (1882).” Milestone Documents. <a href="https://www.archives.gov/milestone-documents/chinese-exclusion-act" target="_blank" rel="noopener">archives.gov/milestone-documents/chinese-exclusion-act</a></li>' +
               '<li>NPR Code Switch. “‘Model Minority’ Myth Again Used As A Racial Wedge Between Asians And Blacks.” April 19, 2017. <a href="https://www.npr.org/sections/codeswitch/2017/04/19/524571669/model-minority-myth-again-used-as-a-racial-wedge-between-asians-and-blacks" target="_blank" rel="noopener">npr.org/sections/codeswitch</a></li>' +
-              '<li>Imperial War Museums. “Chinese Labour Corps.” Mapping the Centenary project. <a href="https://www.iwm.org.uk/partnerships/mapping-the-centenary/projects/chinese-labour-corps" target="_blank" rel="noopener">iwm.org.uk/partnerships/mapping-the-centenary/projects/chinese-labour-corps</a></li>' +
-              '<li>Lee &amp; Low Books. “The Lee &amp; Low Diversity Baseline Survey 3.0.” 2023 results. <a href="https://www.leeandlow.com/about/diversity-baseline-survey/dbs3/" target="_blank" rel="noopener">leeandlow.com/about/diversity-baseline-survey/dbs3</a></li>' +
-              '<li>McGill News. “A deep dive into racial inequality in the literary world.” <a href="https://mcgillnews.mcgill.ca/a-deep-dive-into-racial-inequality-in-the-literary-world/" target="_blank" rel="noopener">mcgillnews.mcgill.ca</a>. Reports the figures from Richard Jean So and Gus Wezerek, “Just How White Is the Book Industry?” <cite>The New York Times</cite>, December 11, 2020.</li>' +
-              '<li>Mayer, Petra. “‘American Dirt’ Publisher Cancels Author Tour After Threats.” NPR, January 29, 2020. <a href="https://www.npr.org/2020/01/29/801021867/american-dirt-publisher-cancels-author-tour-after-threats" target="_blank" rel="noopener">npr.org/2020/01/29/801021867</a></li>' +
               '<li>Stop AAPI Hate. “The State of Anti-AA/PI Hate in 2025: Closing Doors, Widening Harm.” Executive summary, May 2026 (PDF). <a href="https://stopaapihate.org/wp-content/uploads/2026/04/26-StopAAPIHate-StateofHate2025-ClosingDoorsWideningHarm-ExecutiveSummary.pdf" target="_blank" rel="noopener">stopaapihate.org</a></li>' +
               '<li>Pew Research Center. “Views of how much discrimination racial and ethnic groups face in the U.S.” May 20, 2025. <a href="https://www.pewresearch.org/politics/2025/05/20/views-of-how-much-discrimination-racial-and-ethnic-groups-in-the-u-s-face/" target="_blank" rel="noopener">pewresearch.org</a></li>' +
             '</ol>' +
-            '<p class="muted">All links were opened and checked on October 2, 2026.</p>' +
+            '<p class="muted">We opened and checked every link on October 2, 2026.</p>' +
           '</div>' +
         '</div></section>' +
 
-        '<section class="rsec rsec--dark" id="r-credits" aria-labelledby="h-credits"><div class="wrap rsec__inner">' +
-          '<div class="rsec__num" aria-hidden="true">©</div>' +
+        '<section class="rsec rsec--dark" id="r-credits" aria-labelledby="h-credits"><div class="wrap">' +
           '<div class="rsec__body rsec__body--wide">' +
             '<h2 id="h-credits" tabindex="-1">Credits</h2>' +
             '<ul class="credits">' +
@@ -674,7 +459,7 @@
               '<li>Aishwarya Srivastava</li>' +
               '<li>Gavin Ecleonel</li>' +
             '</ul>' +
-            '<p>Unit 2 Lit Circle Project. Format: interactive digital story. Scene questions, analyses, and this reflection are our own writing. Scene illustrations were supplied by the project team. Typeface: Archivo, used under the SIL Open Font License.</p>' +
+            '<p>Unit 2 Lit Circle Project. Format: interactive digital story. We wrote the scene questions, the analyses, and this reflection. Scene illustrations were supplied by the project team. Typeface: Archivo, used under the SIL Open Font License.</p>' +
             '<div class="reflection__end">' +
               '<button type="button" class="btn btn--primary" data-restart>Start again from the beginning</button>' +
               '<button type="button" class="btn btn--ghost btn--on-dark" data-go="scene-7">Back to scene 7</button>' +
