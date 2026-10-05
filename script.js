@@ -53,7 +53,7 @@
         { text: 'I never lied. That’s important. I never pretended to be Chinese', who: 'June, defending the rebrand', page: 51 }
       ],
       concepts: ['Ideological', 'Institutional'],
-      connection: 'Ideological: ideas about who gets to represent a culture. Institutional: the publisher decides how to brand the author.'
+      connection: 'This is ideological because it runs on ideas about who gets to represent a culture. It is institutional because the publisher decides how to brand the author.'
     },
     {
       slug: 'candice',
@@ -63,7 +63,7 @@
       question: 'Candice Lee warns that the book could misrepresent Chinese people and asks for informed review. Do you listen or complain about her?',
       a: {
         label: 'Listen to Candice',
-        analysis: 'Listening to Candice shows how you recognize the importance of cultural and historical knowledge. Candice is giving real criticism. She is not persecuting June for being white. The novel proceeds differently: Candice is removed from the project. A company can invite diverse voices in and still fail to protect the people who question its decisions.'
+        analysis: 'Listening to Candice shows how you recognize the importance of cultural and historical knowledge. Candice is giving real criticism. She is not persecuting June for being white. The novel goes differently, and Candice is removed from the project. A company can invite diverse voices in and still fail to protect the people who question its decisions.'
       },
       b: {
         label: 'Complain about Candice',
@@ -75,7 +75,7 @@
         { text: 'Candice has been taken off the project.', who: 'June, reporting her editor’s message', page: 53 }
       ],
       concepts: ['Interpersonal', 'Institutional'],
-      connection: 'Interpersonal: June dismisses Candice’s concerns. Institutional: the publisher takes Candice off the project.'
+      connection: 'On the interpersonal level, June dismisses Candice’s concerns. On the institutional level, the publisher takes Candice off the project.'
     },
     {
       slug: 'accusation',
@@ -98,7 +98,7 @@
         { text: 'I am not the bad guy. I am the victim here.', who: 'June', page: 110 }
       ],
       concepts: ['Interpersonal'],
-      connection: 'Interpersonal: online threats and abuse.'
+      connection: 'The online threats and abuse are interpersonal oppression.'
     },
     {
       slug: 'profit',
@@ -109,7 +109,7 @@
       question: 'Your publisher continues backing you because the book makes money. Do you accept that protection or take responsibility?',
       a: {
         label: 'Accept the publisher’s protection',
-        analysis: 'Accepting the support lets the book’s success protect you from consequences. Brett ties the publisher’s loyalty to money. He never says June is innocent. This is institutional power: the publisher controls her promotion and whether she keeps getting published.'
+        analysis: 'Accepting the support lets the book’s success protect you from consequences. Brett ties the publisher’s loyalty to money. He never says June is innocent. This is institutional power, because the publisher controls her promotion and whether she keeps getting published.'
       },
       b: {
         label: 'Take responsibility despite the support',
@@ -119,7 +119,7 @@
       quote: { text: 'Eden’s going to stand with you. You’re pulling in too much money for them to back out now.', who: 'Brett, June’s agent', page: 159 },
       support: [],
       concepts: ['Institutional'],
-      connection: 'Institutional: the publisher protects June because of the money she brings in.'
+      connection: 'This is institutional. The publisher protects June because of the money she brings in.'
     },
     {
       slug: 'recording',
@@ -158,7 +158,7 @@
       },
       b: {
         label: 'Recast the scandal as a hoax',
-        analysis: 'Calling it a hoax is June doing what she always does: swapping responsibility for a story that makes her look better. The ending shows the problem continuing, with no real moral growth. June trying to win back her authority is not resistance to oppression, and it is not healing. Candice exposing the theft is the stronger example of resistance. The warning is that attention, good storytelling, and sales can outlast accountability.'
+        analysis: 'Calling it a hoax is June doing what she always does, which is swapping responsibility for a story that makes her look better. The ending shows the problem continuing, with no real moral growth. June trying to win back her authority is not resistance to oppression, and it is not healing. Candice exposing the theft is the stronger example of resistance. The warning is that attention, good storytelling, and sales can outlast accountability.'
       },
       canon: 'June plans a new book that retells the scandal in her favor. The theft becomes a “hoax” meant to expose the industry, and she becomes its hero. She does not admit the theft.',
       quote: { text: 'let’s frame it as a hoax, not a theft', who: 'June', page: 230 },
@@ -166,7 +166,7 @@
         { text: 'And this will become, in time, my story once again.', who: 'June, the novel’s last line', page: 231 }
       ],
       concepts: ['Resistance and healing', 'Systemic change'],
-      connection: 'Resistance and healing: Candice exposing the theft is different from June managing her reputation. The ending does not show any systemic change.'
+      connection: 'Candice exposing the theft is resistance. June managing her reputation is not, and nobody heals. The ending does not show any systemic change.'
     }
   ];
 
@@ -400,7 +400,7 @@
           '<div class="rsec__body rsec__body--wide">' +
             '<h2 id="h-system" tabindex="-1">The system and the 4 I’s</h2>' +
             '<p class="label">Our interpretation</p>' +
-            '<p><cite>Yellowface</cite> is about racism in publishing: who gets to tell a story, who gets paid, and who gets pushed out. June stealing the book is one person’s choice. It becomes a system because the people around her keep helping.</p>' +
+            '<p><cite>Yellowface</cite> is about racism in publishing. It asks who gets to tell a story, who gets paid, and who gets pushed out. June stealing the book is one person’s choice. It becomes a system because the people around her keep helping.</p>' +
             q('This industry is built on silencing us', 'Candice', 222) +
             '<p>That is Candice talking about one made-up publisher. It does not prove anything about every real one.</p>' +
             '<div class="four">' +
@@ -428,7 +428,7 @@
               '<section class="icard" aria-labelledby="i-intern">' +
                 '<h3 id="i-intern">Internalized</h3>' +
                 '<p class="icard__def">When people in a targeted group start acting on the negative messages about their own group.</p>' +
-                '<p>According to June, Athena told interviewers she <mark>“spoke only English at home in an attempt to better assimilate”</mark> <span class="src">(p. 85)</span>. Candice says Athena played along with the token role too: <mark>“She leaned into it, too. She knew the rules.”</mark> <span class="src">(p. 222)</span></p>' +
+                '<p>According to June, Athena told interviewers she <mark>“spoke only English at home in an attempt to better assimilate”</mark> <span class="src">(p. 85)</span>. Candice says Athena played along with the token role too. In her words, <mark>“She leaned into it, too. She knew the rules.”</mark> <span class="src">(p. 222)</span></p>' +
                 '<p>We only hear this through June and Candice, so we can’t be sure how Athena felt. June calling herself the victim doesn’t count here, because she is white.</p>' +
               '</section>' +
             '</div>' +
@@ -458,15 +458,15 @@
                 '<p class="rcard__date">1882 to 1943</p>' +
                 '<h4 id="hc-1">Exclusion, then praise when it was useful</h4>' +
                 '<p>The Chinese Exclusion Act of 1882 banned Chinese laborers from immigrating for ten years. Congress extended it in 1892 and made it permanent in 1902. It was only repealed in 1943, when China was a wartime ally, and even then just 105 Chinese immigrants were allowed in each year. NPR’s Code Switch reports that the repeal campaign recast Chinese people as “law-abiding, peace-loving” neighbors, and that since World War II the image of successful Asian Americans has been used as a wedge against other minority groups, especially Black Americans.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> acceptance showed up only when it was convenient, and one “success story” got held up against everyone else. Candice describes the publishing version of this. Athena exists, so other Asian writers are told they are redundant.</p>' +
-                '<p class="rcard__src">Sources: U.S. National Archives [1]; NPR Code Switch [2]</p>' +
+                '<p class="rcard__link"><strong>Link to the novel.</strong> Acceptance showed up only when it was convenient, and one “success story” got held up against everyone else. Candice describes the publishing version of this. Athena exists, so other Asian writers are told they are redundant.</p>' +
+                '<p class="rcard__src">From the U.S. National Archives [1] and NPR Code Switch [2]</p>' +
               '</section>' +
               '<section class="rcard" aria-labelledby="hc-2">' +
                 '<p class="rcard__date">1937</p>' +
                 '<h4 id="hc-2">The original yellowface</h4>' +
                 '<p>When MGM filmed <cite>The Good Earth</cite>, a novel about a Chinese farming family, author Pearl S. Buck hoped for a Chinese cast. According to the Museum of Chinese in America, the producers did not think that would appeal to American audiences. Chinese American star Anna May Wong was replaced in the lead by Luise Rainer, the major roles went to white actors in yellowface, and Rainer won the Academy Award for Best Actress.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> a studio decided a Chinese story would sell better with a white face on it. Eden Press makes the same call in scene 2, using a name where the studio used makeup.</p>' +
-                '<p class="rcard__src">Source: Museum of Chinese in America [3]</p>' +
+                '<p class="rcard__link"><strong>Link to the novel.</strong> A studio decided a Chinese story would sell better with a white face on it. Eden Press makes the same call in scene 2, using a name where the studio used makeup.</p>' +
+                '<p class="rcard__src">From the Museum of Chinese in America [3]</p>' +
               '</section>' +
             '</div>' +
 
@@ -476,20 +476,20 @@
                 '<p class="rcard__date">News, January 2020</p>' +
                 '<h4 id="cc-1">The <cite>American Dirt</cite> controversy</h4>' +
                 '<p>NPR reported that Jeanine Cummins received a hefty advance and a big promotional push for <cite>American Dirt</cite>, a novel about a Mexican mother and son fleeing a cartel. Critics called the book inaccurate and full of harmful stereotypes, and questioned whether she was the right person to tell that story. Her publisher’s president admitted “deep inadequacies” in how the company handles representation. The publisher also cancelled her tour, citing threats, and condemned those threats.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> this is scene 4 in real life. A publisher’s marketing choices, fair criticism from the community being written about, and threats, which are a separate wrong.</p>' +
-                '<p class="rcard__src">Source: NPR [4]</p>' +
+                '<p class="rcard__link"><strong>Link to the novel.</strong> This is scene 4 in real life. It has a publisher’s marketing choices, fair criticism from the community being written about, and threats, which are a separate wrong.</p>' +
+                '<p class="rcard__src">From NPR [4]</p>' +
               '</section>' +
               '<section class="rcard" aria-labelledby="cc-2">' +
                 '<p class="rcard__date">2025 and 2026 surveys</p>' +
                 '<h4 id="cc-2">Anti-Asian hate has not gone away</h4>' +
                 '<p>Stop AAPI Hate’s national survey found that about half (49 percent) of Asian American and Pacific Islander adults experienced a hate act in 2025 because of their race, ethnicity, or nationality. The most common place for it was online (43 percent). In a Pew Research Center report from May 2025, 82 percent of Asian Americans said Asian people face a lot of or some discrimination.</p>' +
-                '<p class="rcard__link"><strong>Link to the novel:</strong> Athena gets racist harassment and death threats online years before June is criticized for a theft (p. 114). June admits she thought Athena was exaggerating, until it happened to her.</p>' +
-                '<p class="rcard__src">Sources: Stop AAPI Hate [5]; Pew Research Center [6]</p>' +
+                '<p class="rcard__link"><strong>Link to the novel.</strong> Athena gets racist harassment and death threats online years before June is criticized for a theft (p. 114). June admits she thought Athena was exaggerating, until it happened to her.</p>' +
+                '<p class="rcard__src">From Stop AAPI Hate [5] and Pew Research Center [6]</p>' +
               '</section>' +
             '</div>' +
 
             '<h3>What it shows about human nature</h3>' +
-            '<p>June never thinks of herself as the villain. Every choice comes with an excuse: Athena was already dead, the book needed her edits, she never technically lied, the internet is cruel, the industry is rigged. People protect how they see themselves with stories like these, and they split the world into “us” and “them” so the stories hold up. Companies do the same thing, with money involved.</p>' +
+            '<p>June never thinks of herself as the villain. Every choice comes with an excuse. Athena was already dead. The book needed her edits. She never technically lied. The internet is cruel, and the industry is rigged. People protect how they see themselves with stories like these, and they split the world into “us” and “them” so the stories hold up. Companies do the same thing, with money involved.</p>' +
             q('I am not the bad guy. I am the victim here.', 'June', 110) +
 
             '<h3>Our warning</h3>' +
@@ -497,7 +497,7 @@
             q('The truth is fluid.', 'June', 229) +
 
             '<h3>What it adds up to</h3>' +
-            '<p>Put the seven scenes side by side. In every one June had an honest option, and in every one somebody with power made the dishonest option easier: a publisher offering a new name, an editor removing the person who objected, an agent pointing at the sales. One person can steal a book. It takes a publisher, a marketing team, and a lot of readers to keep it on the bestseller list. That is the part of the story we think is about us.</p>' +
+            '<p>Put the seven scenes side by side. In every one June had an honest option, and in every one somebody with power made the dishonest option easier. A publisher offered a new name, an editor removed the person who objected, and an agent pointed at the sales. One person can steal a book. It takes a publisher, a marketing team, and a lot of readers to keep it on the bestseller list. That is the part of the story we think is about us.</p>' +
           '</div>' +
         '</div></section>' +
 
@@ -530,7 +530,7 @@
               '<li>Aishwarya Srivastava</li>' +
               '<li>Gavin Ecleonel</li>' +
             '</ul>' +
-            '<p>Unit 2 Lit Circle Project. Format: interactive digital story. We wrote the scene questions, the analyses, and this reflection. Scene illustrations were supplied by the project team. Typeface: Archivo, used under the SIL Open Font License.</p>' +
+            '<p>Unit 2 Lit Circle Project, made as an interactive digital story. We wrote the scene questions, the analyses, and this reflection. Scene illustrations were supplied by the project team. The typeface is Archivo, used under the SIL Open Font License.</p>' +
             '<div class="reflection__end">' +
               '<button type="button" class="btn btn--primary" data-restart>Start again from the beginning</button>' +
               '<button type="button" class="btn btn--ghost btn--on-dark" data-go="scene-7">Back to scene 7</button>' +
