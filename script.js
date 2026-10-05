@@ -400,37 +400,36 @@
           '<div class="rsec__body rsec__body--wide">' +
             '<h2 id="h-system" tabindex="-1">The system and the 4 I’s</h2>' +
             '<p class="label">Our interpretation</p>' +
-            '<p>The root problem in <cite>Yellowface</cite> is racism in publishing: who gets to tell a story, who gets paid for it, and who gets pushed out. A Chinese American writer drafts a novel. A white writer takes it, the publisher gives her a name that sounds Chinese, and the one Asian American employee who objects is removed. When the theft comes out, the publisher stays loyal because the book is selling. June’s theft is one person’s choice. It turns into a system because so many people around her have a reason to go along with it.</p>' +
+            '<p><cite>Yellowface</cite> is about racism in publishing: who gets to tell a story, who gets paid, and who gets pushed out. June stealing the book is one person’s choice. It becomes a system because the people around her keep helping.</p>' +
             q('This industry is built on silencing us', 'Candice', 222) +
-            '<p>That line is Candice speaking in anger about one fictional publisher. We are not saying every real publisher works this way. The novel backs her up with specific events, and those are what the four I’s below are built on.</p>' +
+            '<p>That is Candice talking about one made-up publisher. It does not prove anything about every real one.</p>' +
             '<div class="four">' +
               '<section class="icard" aria-labelledby="i-ideo">' +
                 '<h3 id="i-ideo">Ideological</h3>' +
-                '<p class="icard__def">Beliefs and stereotypes that make unequal treatment seem normal.</p>' +
-                '<p>The belief here is that an Asian American writer has one job, which is to be “the Asian writer.” Candice says the industry never let Athena write about anything else.</p>' +
+                '<p class="icard__def">Beliefs and stereotypes that make unfair treatment seem normal.</p>' +
+                '<p>The industry treats Athena as “the Asian writer” and nothing else.</p>' +
                 q('They marked her as their token, exotic Asian girl.', 'Candice, about Athena', 222) +
                 '<p class="icard__scenes">Scenes 2 and 6.</p>' +
               '</section>' +
               '<section class="icard" aria-labelledby="i-inst">' +
                 '<h3 id="i-inst">Institutional</h3>' +
-                '<p class="icard__def">Decisions and policies made by organizations.</p>' +
-                '<p>Eden Press proposes the name Juniper Song, takes Candice off the project after she objects, and keeps backing June because of the money. Candice also describes pitching a book and being told the publisher already has an Asian writer.</p>' +
+                '<p class="icard__def">What organizations decide.</p>' +
+                '<p>Eden Press picks the name Juniper Song, takes Candice off the book when she objects, and sticks with June because she makes them money.</p>' +
                 q('You’re pulling in too much money for them to back out now.', 'Brett', 159) +
                 '<p class="icard__scenes">Scenes 2, 3, and 5.</p>' +
               '</section>' +
               '<section class="icard" aria-labelledby="i-inter">' +
                 '<h3 id="i-inter">Interpersonal</h3>' +
-                '<p class="icard__def">What individual people do to each other.</p>' +
-                '<p>June takes her friend’s work, brushes off Candice’s warning, and in the end attacks her. The online reaction to June has two sides. Readers asking for an apology are holding her accountable. People sending threats are abusing her, and that is wrong, but it does not make the accusation false.</p>' +
+                '<p class="icard__def">What people do to each other.</p>' +
+                '<p>June takes her friend’s book, ignores Candice’s warning, and ends up attacking her. Online, asking June to apologize is fair. Sending her threats is abuse.</p>' +
                 q('I throw myself at Candice’s waist.', 'June', 224) +
                 '<p class="icard__scenes">Scenes 1, 3, 4, and 6.</p>' +
               '</section>' +
               '<section class="icard" aria-labelledby="i-intern">' +
                 '<h3 id="i-intern">Internalized</h3>' +
-                '<p class="icard__def">When people in a targeted group start to act on the negative messages about their own group.</p>' +
-                '<p>The clearest example is Athena. June reports that Athena said in interviews she <mark>“spoke only English at home in an attempt to better assimilate”</mark> <span class="src">(p. 85)</span>. Candice says Athena also went along with the token role the industry gave her: <mark>“She leaned into it, too. She knew the rules.”</mark> <span class="src">(p. 222)</span></p>' +
-                '<p>Both of these reach us secondhand, through June and Candice, so we cannot know how Athena saw it herself. June’s own claim that she is the victim does not belong here. She is white, and that claim is her excuse.</p>' +
-                '<p class="icard__scenes">Not shown in a scene. This comes from elsewhere in the novel.</p>' +
+                '<p class="icard__def">When people in a targeted group start acting on the negative messages about their own group.</p>' +
+                '<p>According to June, Athena told interviewers she <mark>“spoke only English at home in an attempt to better assimilate”</mark> <span class="src">(p. 85)</span>. Candice says Athena played along with the token role too: <mark>“She leaned into it, too. She knew the rules.”</mark> <span class="src">(p. 222)</span></p>' +
+                '<p>We only hear this through June and Candice, so we can’t be sure how Athena felt. June calling herself the victim doesn’t count here, because she is white.</p>' +
               '</section>' +
             '</div>' +
           '</div>' +
