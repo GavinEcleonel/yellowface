@@ -2,18 +2,24 @@
 
 These are separate from the website on purpose. The site is built and working. These are the academic questions that still need a decision from the group or the teacher. Nothing below is presented on the site as finished when it is not.
 
-## 0. After the October 4 text changes
+## 0. Current state (October 4, 2026, after the rubric fixes)
 
-The team's change document ("project text change.pdf") was applied on October 4, 2026. It shortened the scene text and cut the final reflection down to "Mirror to society" with one historical and one current connection. That changes what is still open:
+The team's change document shortened the scenes and the reflection. After grading that version against the rubric, these were put back in a shorter form:
 
-- **Framework coverage now lives in the scenes.** The reflection no longer has the sections for The System Exposed, the 4 I's, Breaking Point, or Resistance. Ideological, institutional, and interpersonal oppression and the breaking point are still named in the scene analyses and tags. **Internalized oppression is no longer mentioned anywhere on the site.** The rubric's Literary Analysis row asks for all five framework elements and all four I's, so check this with the teacher.
-- **Research is now 1 historical + 1 current connection.** The rubric's Research row asks for 2 or more of each for Proficient and Exemplary. The removed connections (the 1937 *Good Earth* casting, the Chinese Labour Corps, publishing workforce data, authorship data, *American Dirt*) are in git history and can be restored.
-- **Which two were kept was my choice**, since the document did not say: the Chinese Exclusion Act and Stop AAPI Hate, because those are the two topics in the team's own planner. Swapping in a different one is a small edit in `reflectionHTML` in `script.js`.
-- "Our hope" was deleted as asked, so the site now gives a warning but no hope for the future. The framework asks for "warning or hope", so this still fits.
-- The "Your answers and June's" table was removed with the rest of the reflection. Sources and credits were kept because the project needs them.
-- The per-scene line "Your answer differs from June's. Both answers lead to this same event..." was removed from every scene, not only scene 1, so the scenes stay consistent. The introduction still says that answers do not change the story.
-- One sentence in the change document was cut off ("her edits will give her."). It was finished as "her edits will give her ownership of it." Change it if that is not what was meant.
-- Items 1 and parts of 3 to 6 below describe the earlier, longer version and are kept for reference.
+- A "System and the 4 I's" section, including internalized oppression (Athena, pp. 85 and 222, stated as secondhand evidence).
+- A short "Breaking point and resistance" section.
+- A second historical connection (the 1937 *Good Earth* casting) and a second current connection (NPR's *American Dirt* news article), so the site has 2 of each.
+- A closing paragraph, "What it adds up to".
+- One extra sentence each in analyses 1A, 1B, and 6B.
+
+Still deleted, as the change document asked: "Our hope", the long versions of the scene text, the removed tags, the per-scene "your answer differs" line, and the answers table.
+
+Still open:
+
+- **Adult interview.** Not on the site. The rubric's Research row scores one. Nothing can be written here without a real interview.
+- **Internalized oppression** rests on two secondhand passages. The site says so. A teacher could still judge it thin.
+- **"Current news articles."** One of the two current connections is a 2020 news article and the other is 2025 and 2026 survey reports. A news article from the past year would be stronger.
+- Sections 1 to 6 below were written for the first long version and are kept for reference.
 
 ## 1. Internalized oppression: needs a decision
 

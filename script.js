@@ -21,11 +21,11 @@
       question: 'Your rival Athena has just died. Her unfinished manuscript is on the desk. Do you take it?',
       a: {
         label: 'Take the manuscript',
-        analysis: 'Choosing to take the novel shows ambition, and no fear of the consequences of plagiarism. June justifies taking the book by saying it is unfinished and her edits will give her ownership of it.'
+        analysis: 'Choosing to take the novel shows ambition, and no fear of the consequences of plagiarism. June justifies taking the book by saying it is unfinished and her edits will give her ownership of it. In the novel she still calls it stolen in her own words, which undercuts the excuse.'
       },
       b: {
         label: 'Leave the manuscript',
-        analysis: 'Not taking the manuscript shows integrity and honesty as an author. However, your choice does not change June’s action in the novel.'
+        analysis: 'Not taking the manuscript shows integrity and honesty as an author. However, your choice does not change June’s action in the novel. She takes it anyway, so the theft is something she decides to do. Nothing forces her.'
       },
       canon: 'June takes Athena’s manuscript home that night. She rewrites it and presents the finished book as her own work.',
       quote: { text: 'And so what if it was stolen? So what if I lifted it wholesale?', who: 'June', page: 32 },
@@ -133,7 +133,7 @@
       },
       b: {
         label: 'Fight for the recording',
-        analysis: 'Trying to take the recording turns June’s fear of being exposed into violence. Candice now has proof, so June can no longer argue her way out. That is why this is the breaking point of the novel.'
+        analysis: 'Trying to take the recording turns June’s fear of being exposed into violence. Candice now has proof, so June can no longer argue her way out. That is why this is the breaking point of the novel. It is also interpersonal harm, because she attacks the one person holding her accountable.'
       },
       canon: 'June realizes Candice has been recording and throws herself at Candice’s waist. They fight at the top of the steps. Candice kicks free and June falls. She wakes in a hospital with a broken collarbone, a broken ankle, and a concussion.',
       quote: { text: 'I throw myself at Candice’s waist.', who: 'June', page: 224 },
@@ -396,31 +396,108 @@
         '<header class="reflection__head">' +
           '<div class="wrap">' +
             '<p class="kicker kicker--on-dark">Final reflection</p>' +
-            '<h1 id="view-title" class="display" tabindex="-1" data-reveal>Mirror to society</h1>' +
-            '<p class="reflection__lead"><cite>Yellowface</cite> is fiction, but the patterns in it are older than the novel, and you can still measure them today. Both connections below link to their sources at the bottom of the page.</p>' +
+            '<h1 id="view-title" class="display" tabindex="-1" data-reveal>What seven choices add up to</h1>' +
+            '<p class="reflection__lead">June makes a choice in every scene, and each time the people around her make the wrong choice the easy one. This page puts the scenes together using our class framework, then connects the novel to history and to today.</p>' +
+            '<nav class="jump" aria-label="Sections of the reflection">' +
+              '<button type="button" data-jump="r-system">The system and the 4 I’s</button>' +
+              '<button type="button" data-jump="r-break">Breaking point and resistance</button>' +
+              '<button type="button" data-jump="r-mirror">Mirror to society</button>' +
+              '<button type="button" data-jump="r-sources">Sources</button>' +
+              '<button type="button" data-jump="r-credits">Credits</button>' +
+            '</nav>' +
           '</div>' +
         '</header>' +
 
+        '<section class="rsec" id="r-system" aria-labelledby="h-system"><div class="wrap">' +
+          '<div class="rsec__body rsec__body--wide">' +
+            '<h2 id="h-system" tabindex="-1">The system and the 4 I’s</h2>' +
+            '<p class="label">Our interpretation</p>' +
+            '<p>The root problem in <cite>Yellowface</cite> is racism in publishing: who gets to tell a story, who gets paid for it, and who gets pushed out. A Chinese American writer drafts a novel. A white writer takes it, the publisher gives her a name that sounds Chinese, and the one Asian American employee who objects is removed. When the theft comes out, the publisher stays loyal because the book is selling. June’s theft is one person’s choice. It turns into a system because so many people around her have a reason to go along with it.</p>' +
+            q('This industry is built on silencing us', 'Candice', 222) +
+            '<p>That line is Candice speaking in anger about one fictional publisher. We are not saying every real publisher works this way. The novel backs her up with specific events, and those are what the four I’s below are built on.</p>' +
+            '<div class="four">' +
+              '<section class="icard" aria-labelledby="i-ideo">' +
+                '<h3 id="i-ideo">Ideological</h3>' +
+                '<p class="icard__def">Beliefs and stereotypes that make unequal treatment seem normal.</p>' +
+                '<p>The belief here is that an Asian American writer has one job, which is to be “the Asian writer.” Candice says the industry never let Athena write about anything else.</p>' +
+                q('They marked her as their token, exotic Asian girl.', 'Candice, about Athena', 222) +
+                '<p class="icard__scenes">Scenes 2 and 6.</p>' +
+              '</section>' +
+              '<section class="icard" aria-labelledby="i-inst">' +
+                '<h3 id="i-inst">Institutional</h3>' +
+                '<p class="icard__def">Decisions and policies made by organizations.</p>' +
+                '<p>Eden Press proposes the name Juniper Song, takes Candice off the project after she objects, and keeps backing June because of the money. Candice also describes pitching a book and being told the publisher already has an Asian writer.</p>' +
+                q('You’re pulling in too much money for them to back out now.', 'Brett', 159) +
+                '<p class="icard__scenes">Scenes 2, 3, and 5.</p>' +
+              '</section>' +
+              '<section class="icard" aria-labelledby="i-inter">' +
+                '<h3 id="i-inter">Interpersonal</h3>' +
+                '<p class="icard__def">What individual people do to each other.</p>' +
+                '<p>June takes her friend’s work, brushes off Candice’s warning, and in the end attacks her. The online reaction to June has two sides. Readers asking for an apology are holding her accountable. People sending threats are abusing her, and that is wrong, but it does not make the accusation false.</p>' +
+                q('I throw myself at Candice’s waist.', 'June', 224) +
+                '<p class="icard__scenes">Scenes 1, 3, 4, and 6.</p>' +
+              '</section>' +
+              '<section class="icard" aria-labelledby="i-intern">' +
+                '<h3 id="i-intern">Internalized</h3>' +
+                '<p class="icard__def">When people in a targeted group start to act on the negative messages about their own group.</p>' +
+                '<p>The clearest example is Athena. June reports that Athena said in interviews she <mark>“spoke only English at home in an attempt to better assimilate”</mark> <span class="src">(p. 85)</span>. Candice says Athena also went along with the token role the industry gave her: <mark>“She leaned into it, too. She knew the rules.”</mark> <span class="src">(p. 222)</span></p>' +
+                '<p>Both of these reach us secondhand, through June and Candice, so we cannot know how Athena saw it herself. June’s own claim that she is the victim does not belong here. She is white, and that claim is her excuse.</p>' +
+                '<p class="icard__scenes">Not shown in a scene. This comes from elsewhere in the novel.</p>' +
+              '</section>' +
+            '</div>' +
+          '</div>' +
+        '</div></section>' +
+
+        '<section class="rsec rsec--alt" id="r-break" aria-labelledby="h-break"><div class="wrap">' +
+          '<div class="rsec__body">' +
+            '<h2 id="h-break" tabindex="-1">Breaking point and resistance</h2>' +
+            '<p class="label">Our interpretation</p>' +
+            '<p>Tension peaks on the steps in scene 6. Until then June could always argue for her version of events. Once Candice has her voice on a recording, arguing is over, and June attacks her.</p>' +
+            q('I will not let Candice walk away with my fate in her hands.', 'June', 223) +
+            '<p>Candice is the one who resists. She first asks for a sensitivity reader and gets removed for it. Later she records June and takes the story public. Readers resist too, by organizing around #SaveAthena and demanding an apology (pp. 102 and 104).</p>' +
+            '<p>Nobody heals, though, and the industry does not change. June’s bones are set and her thinking is the same. Eden, the publisher that removed Candice, now says publishing her story would be <mark>“the ideal way to make amends”</mark> <span class="src">(p. 227)</span>. It is still chasing whichever book will sell.</p>' +
+          '</div>' +
+        '</div></section>' +
+
         '<section class="rsec" id="r-mirror" aria-labelledby="h-mirror"><div class="wrap">' +
           '<div class="rsec__body rsec__body--wide">' +
-            '<h2 id="h-mirror" tabindex="-1">What this story shows about our world</h2>' +
+            '<h2 id="h-mirror" tabindex="-1">Mirror to society</h2>' +
             '<p class="label">Our research</p>' +
+            '<p class="rsec__intro"><cite>Yellowface</cite> is fiction, but the patterns in it are older than the novel, and you can still see them today. Every source is linked at the bottom of the page.</p>' +
+
+            '<h3>Historical connections</h3>' +
             '<div class="research">' +
               '<section class="rcard" aria-labelledby="hc-1">' +
-                '<p class="label">Historical connection</p>' +
                 '<p class="rcard__date">1882 to 1943</p>' +
-                '<h3 id="hc-1">Exclusion, then praise when it was useful</h3>' +
+                '<h4 id="hc-1">Exclusion, then praise when it was useful</h4>' +
                 '<p>The Chinese Exclusion Act of 1882 banned Chinese laborers from immigrating for ten years. Congress extended it in 1892 and made it permanent in 1902. It was only repealed in 1943, when China was a wartime ally, and even then just 105 Chinese immigrants were allowed in each year. NPR’s Code Switch reports that the repeal campaign recast Chinese people as “law-abiding, peace-loving” neighbors, and that since World War II the image of successful Asian Americans has been used as a wedge against other minority groups, especially Black Americans.</p>' +
                 '<p class="rcard__link"><strong>Link to the novel:</strong> acceptance showed up only when it was convenient, and one “success story” got held up against everyone else. Candice describes the publishing version of this. Athena exists, so other Asian writers are told they are redundant.</p>' +
                 '<p class="rcard__src">Sources: U.S. National Archives [1]; NPR Code Switch [2]</p>' +
               '</section>' +
+              '<section class="rcard" aria-labelledby="hc-2">' +
+                '<p class="rcard__date">1937</p>' +
+                '<h4 id="hc-2">The original yellowface</h4>' +
+                '<p>When MGM filmed <cite>The Good Earth</cite>, a novel about a Chinese farming family, author Pearl S. Buck hoped for a Chinese cast. According to the Museum of Chinese in America, the producers did not think that would appeal to American audiences. Chinese American star Anna May Wong was replaced in the lead by Luise Rainer, the major roles went to white actors in yellowface, and Rainer won the Academy Award for Best Actress.</p>' +
+                '<p class="rcard__link"><strong>Link to the novel:</strong> a studio decided a Chinese story would sell better with a white face on it. Eden Press makes the same call in scene 2, using a name where the studio used makeup.</p>' +
+                '<p class="rcard__src">Source: Museum of Chinese in America [3]</p>' +
+              '</section>' +
+            '</div>' +
+
+            '<h3>Current connections</h3>' +
+            '<div class="research">' +
               '<section class="rcard" aria-labelledby="cc-1">' +
-                '<p class="label">Current connection</p>' +
+                '<p class="rcard__date">News, January 2020</p>' +
+                '<h4 id="cc-1">The <cite>American Dirt</cite> controversy</h4>' +
+                '<p>NPR reported that Jeanine Cummins received a hefty advance and a big promotional push for <cite>American Dirt</cite>, a novel about a Mexican mother and son fleeing a cartel. Critics called the book inaccurate and full of harmful stereotypes, and questioned whether she was the right person to tell that story. Her publisher’s president admitted “deep inadequacies” in how the company handles representation. The publisher also cancelled her tour, citing threats, and condemned those threats.</p>' +
+                '<p class="rcard__link"><strong>Link to the novel:</strong> this is scene 4 in real life. A publisher’s marketing choices, fair criticism from the community being written about, and threats, which are a separate wrong.</p>' +
+                '<p class="rcard__src">Source: NPR [4]</p>' +
+              '</section>' +
+              '<section class="rcard" aria-labelledby="cc-2">' +
                 '<p class="rcard__date">2025 and 2026 surveys</p>' +
-                '<h3 id="cc-1">Anti-Asian hate has not gone away</h3>' +
+                '<h4 id="cc-2">Anti-Asian hate has not gone away</h4>' +
                 '<p>Stop AAPI Hate’s national survey found that about half (49 percent) of Asian American and Pacific Islander adults experienced a hate act in 2025 because of their race, ethnicity, or nationality. The most common place for it was online (43 percent). In a Pew Research Center report from May 2025, 82 percent of Asian Americans said Asian people face a lot of or some discrimination.</p>' +
                 '<p class="rcard__link"><strong>Link to the novel:</strong> Athena gets racist harassment and death threats online years before June is criticized for a theft (p. 114). June admits she thought Athena was exaggerating, until it happened to her.</p>' +
-                '<p class="rcard__src">Sources: Stop AAPI Hate [3]; Pew Research Center [4]</p>' +
+                '<p class="rcard__src">Sources: Stop AAPI Hate [5]; Pew Research Center [6]</p>' +
               '</section>' +
             '</div>' +
 
@@ -431,6 +508,9 @@
             '<h3>Our warning</h3>' +
             '<p>The last pages are the warning. A good storyteller with an audience can outlast accountability. June loses the argument and starts drafting a new one right away, sure that someone will pay for it.</p>' +
             q('The truth is fluid.', 'June', 229) +
+
+            '<h3>What it adds up to</h3>' +
+            '<p>Put the seven scenes side by side. In every one June had an honest option, and in every one somebody with power made the dishonest option easier: a publisher offering a new name, an editor removing the person who objected, an agent pointing at the sales. One person can steal a book. It takes a publisher, a marketing team, and a lot of readers to keep it on the bestseller list. That is the part of the story we think is about us.</p>' +
           '</div>' +
         '</div></section>' +
 
@@ -439,10 +519,14 @@
             '<h2 id="h-sources" tabindex="-1">Sources</h2>' +
             '<h3>The novel</h3>' +
             '<p>Kuang, R. F. <cite>Yellowface</cite>. William Morrow, 2023. Page numbers on this site are the pages of our group’s PDF copy, so they will not match a print edition.</p>' +
+            '<h3>Framework</h3>' +
+            '<p>The five analysis questions and the four I’s of oppression come from our class materials.</p>' +
             '<h3>Research</h3>' +
             '<ol class="sources">' +
               '<li>U.S. National Archives. “Chinese Exclusion Act (1882).” Milestone Documents. <a href="https://www.archives.gov/milestone-documents/chinese-exclusion-act" target="_blank" rel="noopener">archives.gov/milestone-documents/chinese-exclusion-act</a></li>' +
               '<li>NPR Code Switch. “‘Model Minority’ Myth Again Used As A Racial Wedge Between Asians And Blacks.” April 19, 2017. <a href="https://www.npr.org/sections/codeswitch/2017/04/19/524571669/model-minority-myth-again-used-as-a-racial-wedge-between-asians-and-blacks" target="_blank" rel="noopener">npr.org/sections/codeswitch</a></li>' +
+              '<li>Museum of Chinese in America. “The Good Earth.” <a href="https://www.mocanyc.org/collections/stories/the-good-earth/" target="_blank" rel="noopener">mocanyc.org/collections/stories/the-good-earth</a></li>' +
+              '<li>Mayer, Petra. “‘American Dirt’ Publisher Cancels Author Tour After Threats.” NPR, January 29, 2020. <a href="https://www.npr.org/2020/01/29/801021867/american-dirt-publisher-cancels-author-tour-after-threats" target="_blank" rel="noopener">npr.org/2020/01/29/801021867</a></li>' +
               '<li>Stop AAPI Hate. “The State of Anti-AA/PI Hate in 2025: Closing Doors, Widening Harm.” Executive summary, May 2026 (PDF). <a href="https://stopaapihate.org/wp-content/uploads/2026/04/26-StopAAPIHate-StateofHate2025-ClosingDoorsWideningHarm-ExecutiveSummary.pdf" target="_blank" rel="noopener">stopaapihate.org</a></li>' +
               '<li>Pew Research Center. “Views of how much discrimination racial and ethnic groups face in the U.S.” May 20, 2025. <a href="https://www.pewresearch.org/politics/2025/05/20/views-of-how-much-discrimination-racial-and-ethnic-groups-in-the-u-s-face/" target="_blank" rel="noopener">pewresearch.org</a></li>' +
             '</ol>' +

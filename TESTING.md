@@ -96,3 +96,13 @@ Scene narration and analyses were rewritten from the team's change document, the
 | No console errors | Pass |
 
 Phone layout and keyboard checks were not repeated for this revision; the layout code did not change.
+
+## October 4, 2026 rubric fixes
+
+| Check | Result |
+|---|---|
+| All 14 answer paths re-run after the reflection was rebuilt | Pass (local, under `/yellowface/`) |
+| Reflection shows 5 sections, 4 I's cards, 2 historical and 2 current cards, 6 source links | Pass |
+| Jump buttons move focus to the section heading | Pass |
+| No horizontal scrolling on the reflection | Pass |
+| Every quotation with a page number in `script.js` matches the novel PDF text | 22 of 22 pass |
