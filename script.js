@@ -276,18 +276,6 @@
             '</figure>' +
           '</div>' +
         '</div>' +
-      '</section>' +
-      '<section class="legend" aria-labelledby="legend-title">' +
-        '<div class="wrap">' +
-          '<h2 id="legend-title">How to read each scene</h2>' +
-          '<p class="legend__lead">Three kinds of writing appear on this site. Each one is labeled so you always know who is speaking.</p>' +
-          '<ul class="legend__list">' +
-            '<li><p class="label">Project narration</p><p>Our summary of what happens in the novel, in our own words.</p></li>' +
-            '<li class="legend__interp"><p class="label">Our interpretation</p><p>What our group thinks a choice means. This is our argument, and you can disagree with it.</p></li>' +
-            '<li><p class="label">Direct quotation</p><p><mark>“Highlighted like this.”</mark> Exact words from the novel, with the speaker and the page in our PDF copy.</p></li>' +
-          '</ul>' +
-          '<p class="note"><strong>Before you start:</strong> this project discusses the whole plot, including the ending. The novel deals with racism, online harassment, and violence. Quotations are reproduced exactly, so a few contain strong language. June narrates the book and defends herself constantly. Her statements show what she believes or wants readers to believe. They are not the novel’s verdict, and they are not ours.</p>' +
-        '</div>' +
       '</section>';
   }
 
